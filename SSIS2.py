@@ -444,10 +444,6 @@ course_entry.set("Select Course")
 course_entry['values'] = xlist
 course_entry.grid(row=3, column=1, pady=2)
 
-"""root_gender = ttk.Combobox(root, width=25, font=("Lucida Console", 10))
-    root_gender.set("Select Gender")
-    root_gender['values'] = ("Male", "Female", "Other")
-    root_gender.place(x=130, y=100)"""
 
 year_entry = ttk.Combobox(std_frame, width=18)
 year_entry.set("Select Year Level")
@@ -480,8 +476,6 @@ mod_btn2.grid(row=1, column=3, pady=3, padx=10)
 clr_btn2 = Button(cc_frame, text="Clear", bg="#F3D1DC", command=clear2, width=7)
 clr_btn2.grid(row=2, column=3, pady=3, padx=10)
 
-"""search_btn2 = Button(rightSide, text="Search Course", bg="#DAA520", command=search2, width=7)
-search_btn2.grid(row=0, column=3, pady=10, ipadx=10)"""
 
 search_btn2 = Button(cc_frame, text="Search by Course Code", bg="#F3D1DC", command=search2b)
 search_btn2.grid(row=0, column=0, columnspan=2, ipadx=10, sticky='e')
@@ -498,9 +492,6 @@ upd_btn.grid(row=6, column=1, pady=3)
 clr_btn = Button(std_frame, text="Clear", bg="#F3D1DC", command=clear, width=7)
 clr_btn.grid(row=7, column=1, pady=3)
 
-
-"""sel_btn = Button(leftside, text="Select", bg="#DAA520", command=select_record, width=10)
-sel_btn.grid(row=7, column=1, pady=3)"""
 
 Database()
 
